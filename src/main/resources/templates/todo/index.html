@@ -11,7 +11,7 @@
     <title>Techcret : Sign In</title>
 </head>
 
-    <body>
+<body>
 
 
 
@@ -22,38 +22,31 @@
 
 
 
-    <form th:action="@{/todo/create}"  method="post">
-        <div class="form-group col-sm-6">
-            <!-- <label for="exampleInputEmail1">Email address</label>-->
-            <h3>
-               Add Your Task
+<form th:action="@{/userControl/create}"  method="post">
+    <div class="form-group col-sm-6">
+        <!-- <label for="exampleInputEmail1">Email address</label>-->
+        <h3>
+           TO DO WEB APP
 
-            </h3>
-        </div>
-
-
-
-        <div class="form-group col-sm-5">
-            <label for="inputUserName">Enter Your User Name:</label>
-            <input type="text" class="form-control" id="inputUserName" name="inputUserName">
-        </div>
-
-        <div class="form-group col-sm-5">
-           <label for="title">Title:</label>
-            <input type="text" class="form-control" id="title" name="title">
-        </div>
+        </h3>
+    </div>
 
 
 
-        <div class="form-group col-sm-6">
-            <label for="description">Description</label>
-            <textarea class="form-control" rows="5" id="description" name="description"></textarea>
-        </div>
+    <div class="form-group col-sm-5">
+        <label for="userNameInfo">Enter Your User Name:</label>
+        <input type="text" class="form-control" id="userNameInfo" name="userNameInfo">
+    </div>
 
 
-        <button type="submit" class="btn btn-primary ">Add</button>
 
-    </form>
+
+    <button type="submit" class="btn btn-primary " >Add</button>
+
+</form>
+
+
+
 
 
 
@@ -66,5 +59,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>

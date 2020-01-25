@@ -6,7 +6,16 @@ public class ToDoCO {
 
     private String title;
     private String description;
+    private String inputUserName;
 
+
+    public String getInputUserName() {
+        return inputUserName;
+    }
+
+    public void setInputUserName(String inputUserName) {
+        this.inputUserName = inputUserName;
+    }
 
     public String getTitle() {
         return title;
